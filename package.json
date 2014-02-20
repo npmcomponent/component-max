@@ -1,20 +1,14 @@
 {
-  "name": "max-component",
+  "name": "component-max",
+  "description": "Array max value utility",
   "version": "1.0.0",
+  "keywords": [
+    "array",
+    "max",
+    "utility"
+  ],
   "dependencies": {
-    "to-function": "*"
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "max": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/max.git"
-  }
+  "license": "MIT"
 }
